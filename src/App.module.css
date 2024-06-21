@@ -1,0 +1,23 @@
+.main_container {
+    margin: 6vh 25vw;
+}
+
+.rules_btn {
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 1rem 3rem;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 10px;
+
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+.rules_btn:hover {
+    transform: scale(1.1);
+}

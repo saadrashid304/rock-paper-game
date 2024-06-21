@@ -1,0 +1,84 @@
+.game_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.game_container_width {
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: white;
+    color: #192345;
+    width: 10rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Barlow Semi Condensed";
+}
+
+.btn_color {
+    color: red
+}
+
+.icon_container {
+    background-color: #fff;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.icon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.icon_dummy {
+    background-color: rgb(23, 34, 62);
+    border: 30px solid transparent;
+}
+
+.icon_container_paper {
+    border: 30px solid hsl(230, 89%, 62%);
+}
+
+.icon_container_rock {
+    border: 30px solid hsl(349, 71%, 52%);
+}
+
+.icon_container_scissors {
+    border: 30px solid hsl(39, 89%, 49%);
+}
+
+.icon_container:hover {
+    transform: scale(1.1);
+}
+
+.game_container_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game_container_left h2 {
+    letter-spacing: 5px;
+    margin-bottom: 4rem;
+}
+
+.glow_effect {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+        0 0 20px rgba(255, 255, 255, 0.4),
+        0 0 30px rgba(255, 255, 255, 0.3),
+        0 0 40px rgba(255, 255, 255, 0.2),
+        0 0 50px rgba(255, 255, 255, 0.1);
+}

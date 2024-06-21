@@ -1,0 +1,47 @@
+.game_container {
+    height: 500px;
+    background: url("../../assets/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    border: 1px solid;
+}
+
+.icon_container {
+    background-color: #fff;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.icon_container_paper {
+    border: 20px solid hsl(230, 89%, 62%);
+    position: absolute;
+    left: 11vw;
+    top: 2rem;
+}
+
+.icon_container_rock {
+    border: 20px solid hsl(349, 71%, 52%);
+    position: absolute;
+    left: 19vw;
+    bottom: 4rem;
+}
+
+.icon_container_scissors {
+    border: 20px solid hsl(39, 89%, 49%);
+    position: absolute;
+    right: 11vw;
+    top: 2rem;
+}
+
+.icon_container:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid hsl(217, 16%, 45%);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.score_card {
+    background-color: rgb(250, 250, 250);
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.score_card_p1 {
+    color: hsl(229, 64%, 46%);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 3px;
+
+}
+
+.score_card_p2 {
+    color: hsl(229, 25%, 31%);
+    font-weight: 1000;
+    font-size: 4rem;
+}
